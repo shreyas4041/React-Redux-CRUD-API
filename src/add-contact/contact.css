@@ -1,0 +1,27 @@
+input[type="email"],
+input[type="text"] {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  box-sizing: border-box;
+  background-color: #1a171745;
+  border: none;
+  height: 44px;
+}
+
+.container {
+  border: 2px;
+  border-radius: 25px;
+  background-color: #1a171745;
+  border-color: black;
+  width: 400px !important;
+  position: absolute;
+  grid-column-end: 0px;
+  max-width: 400px;
+  padding: 30px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
